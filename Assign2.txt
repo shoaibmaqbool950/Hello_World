@@ -1,0 +1,24 @@
+fn main() {
+    let variable1:i16=5;
+    let variable2:f32=10.25;
+    let mut variable3=String::from("Shoaib ");
+    
+   
+    println!("Variable1 is an integer:{}",variable1);
+    println!("Variable2 is a float:{}",variable2);
+    println!("Variable3 is an String:{}",variable3);
+    let z=user_fun(variable1,variable2,& mut variable3);
+    println!("Square of varibale2(float) returned is :{}",z);
+}
+fn user_fun(x:i16,y:f32,s:&mut String) ->f32
+{
+s.push_str("PIAIC99807");
+println!("String is modified here:{}",s);
+for number in (0..x)
+{
+   println!("This Iteration is {}",number);
+}
+let square=y*y;
+square
+
+}
